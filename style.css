@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(138, 137, 137);
+    font-family: Arial,sans-serif;
+
+ }
+ .neumorphic{
+    background: #e0e5ec;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #a3b1c6, -10px -10px 20px #625d5d;
+ }
+ .neumorphic-inset{
+    background: #e0e5ec;
+    border-radius: 20px;
+    box-shadow: inset 10px 10px 20px #a3b1c6,
+     inset -10px -10px 20px #ffffff;
+ }
+ .neumorphic-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+ }
+ h1 {
+    color: #48515f;
+    margin-bottom: 20px;
+    font-family: cursive;
+ }
+ .neumorphic-input{
+    padding: 15px;
+    width: 80%;
+    font-size: 16px;
+    color: #6d7582;
+    border: none;
+    outline: none;
+    margin-bottom: 25px;
+ }
+ /* .neumorphic-input::placeholder{
+    color: #a3b1c6;
+ } */
+ .neumorphic-button{
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #6d7582;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+ }
+ .neumorphic-button:active {
+    box-shadow: inset 5px 5px 10px #a3b1c6,
+     inset -5px -5px 10px #ffffff;
+ }
